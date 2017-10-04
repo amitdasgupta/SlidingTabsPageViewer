@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">""</string>
+    <string name="label1">ME</string>
+    <string name="label2">FEED</string>
+    <string name="label3">JOBSEEKAR</string>
+    <string name="label4">COMPANY</string>
+    <string name="username">"@username"</string>
+</resources>

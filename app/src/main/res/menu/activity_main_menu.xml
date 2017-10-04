@@ -1,0 +1,34 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <!-- Search / will display always -->
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:showAsAction="always"
+        android:title="Search"
+        tools:ignore="AppCompatResource" />
+
+    <!-- Location Found -->
+    <item android:id="@+id/notification"
+        android:icon="@drawable/ic_notifications_none_black_24dp"
+        android:title="notification"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+
+    <!-- Help -->
+    <item android:id="@+id/people"
+        android:icon="@drawable/ic_people_black_24dp"
+        android:title="peoples"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <!-- Check updates -->
+    <item android:id="@+id/savepage"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="save page"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+</menu>
